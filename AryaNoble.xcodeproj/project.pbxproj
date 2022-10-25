@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C6E148D70863B3C8D63AF58 /* Pods_AryaNoble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D3C9AE30735BF3C17FF588C /* Pods_AryaNoble.framework */; };
+		5B2F54BB290793D200871EF4 /* UItableViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2F54BA290793D200871EF4 /* UItableViewExt.swift */; };
+		5B2F54BE2907940D00871EF4 /* ViewControllerVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2F54BD2907940D00871EF4 /* ViewControllerVM.swift */; };
+		5B2F54C1290794E800871EF4 /* NetworkStuct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2F54C0290794E800871EF4 /* NetworkStuct.swift */; };
+		5B2F54C4290796C000871EF4 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2F54C3290796C000871EF4 /* UIViewExt.swift */; };
+		5B2F54C72907997B00871EF4 /* ResSearchMovieStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2F54C62907997B00871EF4 /* ResSearchMovieStruct.swift */; };
+		5B620FBE29078F81005C9B37 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B620FBD29078F81005C9B37 /* NetworkManager.swift */; };
+		5B620FC129078F9B005C9B37 /* IMDBService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B620FC029078F9B005C9B37 /* IMDBService.swift */; };
+		5B620FC529079016005C9B37 /* ResAllMovieStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B620FC429079016005C9B37 /* ResAllMovieStruct.swift */; };
+		5B620FCC290790D0005C9B37 /* ViewControllerContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B620FCB290790D0005C9B37 /* ViewControllerContract.swift */; };
+		5B620FD029079289005C9B37 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B620FCF29079289005C9B37 /* MovieTableViewCell.swift */; };
+		5BC1A5D129078B9F00B5A297 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC1A5D029078B9F00B5A297 /* AppDelegate.swift */; };
+		5BC1A5D529078B9F00B5A297 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC1A5D429078B9F00B5A297 /* ViewController.swift */; };
+		5BC1A5D829078B9F00B5A297 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BC1A5D629078B9F00B5A297 /* Main.storyboard */; };
+		5BC1A5DA29078B9F00B5A297 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BC1A5D929078B9F00B5A297 /* Assets.xcassets */; };
+		5BC1A5DD29078B9F00B5A297 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BC1A5DB29078B9F00B5A297 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D3C9AE30735BF3C17FF588C /* Pods_AryaNoble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AryaNoble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FFB99DD5FB1EE35BDC18117 /* Pods-AryaNoble.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AryaNoble.debug.xcconfig"; path = "Target Support Files/Pods-AryaNoble/Pods-AryaNoble.debug.xcconfig"; sourceTree = "<group>"; };
+		5B2F54BA290793D200871EF4 /* UItableViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UItableViewExt.swift; sourceTree = "<group>"; };
+		5B2F54BD2907940D00871EF4 /* ViewControllerVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerVM.swift; sourceTree = "<group>"; };
+		5B2F54C0290794E800871EF4 /* NetworkStuct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkStuct.swift; sourceTree = "<group>"; };
+		5B2F54C3290796C000871EF4 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		5B2F54C62907997B00871EF4 /* ResSearchMovieStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResSearchMovieStruct.swift; sourceTree = "<group>"; };
+		5B620FBD29078F81005C9B37 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		5B620FC029078F9B005C9B37 /* IMDBService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMDBService.swift; sourceTree = "<group>"; };
+		5B620FC429079016005C9B37 /* ResAllMovieStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResAllMovieStruct.swift; sourceTree = "<group>"; };
+		5B620FCB290790D0005C9B37 /* ViewControllerContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerContract.swift; sourceTree = "<group>"; };
+		5B620FCF29079289005C9B37 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		5BC1A5CD29078B9F00B5A297 /* AryaNoble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AryaNoble.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BC1A5D029078B9F00B5A297 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5BC1A5D429078B9F00B5A297 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5BC1A5D729078B9F00B5A297 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5BC1A5D929078B9F00B5A297 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5BC1A5DC29078B9F00B5A297 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5BC1A5DE29078B9F00B5A297 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		777641B9567E24F1A0931895 /* Pods-AryaNoble.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AryaNoble.release.xcconfig"; path = "Target Support Files/Pods-AryaNoble/Pods-AryaNoble.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BC1A5CA29078B9F00B5A297 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C6E148D70863B3C8D63AF58 /* Pods_AryaNoble.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B620FC329079004005C9B37 /* Struct */ = {
+			isa = PBXGroup;
+			children = (
+				5B620FC429079016005C9B37 /* ResAllMovieStruct.swift */,
+				5B2F54C0290794E800871EF4 /* NetworkStuct.swift */,
+				5B2F54C62907997B00871EF4 /* ResSearchMovieStruct.swift */,
+			);
+			path = Struct;
+			sourceTree = "<group>";
+		};
+		5B620FC82907909D005C9B37 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5BC1A5D429078B9F00B5A297 /* ViewController.swift */,
+				5BC1A5D629078B9F00B5A297 /* Main.storyboard */,
+				5B620FCF29079289005C9B37 /* MovieTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5B620FC9290790A3005C9B37 /* Contract */ = {
+			isa = PBXGroup;
+			children = (
+				5B620FCB290790D0005C9B37 /* ViewControllerContract.swift */,
+			);
+			path = Contract;
+			sourceTree = "<group>";
+		};
+		5B620FCA290790AC005C9B37 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5B2F54BD2907940D00871EF4 /* ViewControllerVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5BC1A5C429078B9E00B5A297 = {
+			isa = PBXGroup;
+			children = (
+				5BC1A5CF29078B9F00B5A297 /* AryaNoble */,
+				5BC1A5CE29078B9F00B5A297 /* Products */,
+				F064C96BDBEFDD8B1A593B64 /* Pods */,
+				76C331AB377273E8D825363B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5BC1A5CE29078B9F00B5A297 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BC1A5CD29078B9F00B5A297 /* AryaNoble.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BC1A5CF29078B9F00B5A297 /* AryaNoble */ = {
+			isa = PBXGroup;
+			children = (
+				5B620FC329079004005C9B37 /* Struct */,
+				5BC1A5EB29078C8400B5A297 /* Resource */,
+				5BC1A5EA29078C5300B5A297 /* Application */,
+				5BC1A5E929078C4600B5A297 /* Network */,
+				5BC1A5E829078C4000B5A297 /* Extension */,
+				5BC1A5E729078C3B00B5A297 /* Module */,
+			);
+			path = AryaNoble;
+			sourceTree = "<group>";
+		};
+		5BC1A5E729078C3B00B5A297 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				5B620FCA290790AC005C9B37 /* ViewModel */,
+				5B620FC9290790A3005C9B37 /* Contract */,
+				5B620FC82907909D005C9B37 /* View */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		5BC1A5E829078C4000B5A297 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5B2F54BA290793D200871EF4 /* UItableViewExt.swift */,
+				5B2F54C3290796C000871EF4 /* UIViewExt.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		5BC1A5E929078C4600B5A297 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				5B620FBD29078F81005C9B37 /* NetworkManager.swift */,
+				5B620FC029078F9B005C9B37 /* IMDBService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		5BC1A5EA29078C5300B5A297 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				5BC1A5D029078B9F00B5A297 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		5BC1A5EB29078C8400B5A297 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				5BC1A5D929078B9F00B5A297 /* Assets.xcassets */,
+				5BC1A5DB29078B9F00B5A297 /* LaunchScreen.storyboard */,
+				5BC1A5DE29078B9F00B5A297 /* Info.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		76C331AB377273E8D825363B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D3C9AE30735BF3C17FF588C /* Pods_AryaNoble.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F064C96BDBEFDD8B1A593B64 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2FFB99DD5FB1EE35BDC18117 /* Pods-AryaNoble.debug.xcconfig */,
+				777641B9567E24F1A0931895 /* Pods-AryaNoble.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BC1A5CC29078B9F00B5A297 /* AryaNoble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BC1A5E129078B9F00B5A297 /* Build configuration list for PBXNativeTarget "AryaNoble" */;
+			buildPhases = (
+				C595EB64C23924C03B249745 /* [CP] Check Pods Manifest.lock */,
+				5BC1A5C929078B9F00B5A297 /* Sources */,
+				5BC1A5CA29078B9F00B5A297 /* Frameworks */,
+				5BC1A5CB29078B9F00B5A297 /* Resources */,
+				64F5F6247A06CC3CCDB27C2F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AryaNoble;
+			productName = AryaNoble;
+			productReference = 5BC1A5CD29078B9F00B5A297 /* AryaNoble.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BC1A5C529078B9E00B5A297 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					5BC1A5CC29078B9F00B5A297 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 5BC1A5C829078B9E00B5A297 /* Build configuration list for PBXProject "AryaNoble" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5BC1A5C429078B9E00B5A297;
+			productRefGroup = 5BC1A5CE29078B9F00B5A297 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BC1A5CC29078B9F00B5A297 /* AryaNoble */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BC1A5CB29078B9F00B5A297 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BC1A5DD29078B9F00B5A297 /* LaunchScreen.storyboard in Resources */,
+				5BC1A5DA29078B9F00B5A297 /* Assets.xcassets in Resources */,
+				5BC1A5D829078B9F00B5A297 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		64F5F6247A06CC3CCDB27C2F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AryaNoble/Pods-AryaNoble-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AryaNoble/Pods-AryaNoble-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AryaNoble/Pods-AryaNoble-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C595EB64C23924C03B249745 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AryaNoble-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BC1A5C929078B9F00B5A297 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B2F54BE2907940D00871EF4 /* ViewControllerVM.swift in Sources */,
+				5B620FBE29078F81005C9B37 /* NetworkManager.swift in Sources */,
+				5B2F54BB290793D200871EF4 /* UItableViewExt.swift in Sources */,
+				5B620FC129078F9B005C9B37 /* IMDBService.swift in Sources */,
+				5B2F54C1290794E800871EF4 /* NetworkStuct.swift in Sources */,
+				5B2F54C4290796C000871EF4 /* UIViewExt.swift in Sources */,
+				5B620FD029079289005C9B37 /* MovieTableViewCell.swift in Sources */,
+				5B620FCC290790D0005C9B37 /* ViewControllerContract.swift in Sources */,
+				5BC1A5D529078B9F00B5A297 /* ViewController.swift in Sources */,
+				5B620FC529079016005C9B37 /* ResAllMovieStruct.swift in Sources */,
+				5B2F54C72907997B00871EF4 /* ResSearchMovieStruct.swift in Sources */,
+				5BC1A5D129078B9F00B5A297 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5BC1A5D629078B9F00B5A297 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BC1A5D729078B9F00B5A297 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5BC1A5DB29078B9F00B5A297 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BC1A5DC29078B9F00B5A297 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BC1A5DF29078B9F00B5A297 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5BC1A5E029078B9F00B5A297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BC1A5E229078B9F00B5A297 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FFB99DD5FB1EE35BDC18117 /* Pods-AryaNoble.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BQTMLZMJV8;
+				INFOPLIST_FILE = AryaNoble/Resource/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prokoding.AryaNoble;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5BC1A5E329078B9F00B5A297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 777641B9567E24F1A0931895 /* Pods-AryaNoble.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BQTMLZMJV8;
+				INFOPLIST_FILE = AryaNoble/Resource/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prokoding.AryaNoble;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BC1A5C829078B9E00B5A297 /* Build configuration list for PBXProject "AryaNoble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BC1A5DF29078B9F00B5A297 /* Debug */,
+				5BC1A5E029078B9F00B5A297 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BC1A5E129078B9F00B5A297 /* Build configuration list for PBXNativeTarget "AryaNoble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BC1A5E229078B9F00B5A297 /* Debug */,
+				5BC1A5E329078B9F00B5A297 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BC1A5C529078B9E00B5A297 /* Project object */;
+}

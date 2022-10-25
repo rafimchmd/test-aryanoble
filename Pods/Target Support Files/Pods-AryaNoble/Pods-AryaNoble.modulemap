@@ -1,0 +1,6 @@
+framework module Pods_AryaNoble {
+  umbrella header "Pods-AryaNoble-umbrella.h"
+
+  export *
+  module * { export * }
+}

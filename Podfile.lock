@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (4.5.1)
+  - Kingfisher (4.7.0)
+  - RxSwift (6.5.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.5.1)
+  - Kingfisher (~> 4.7.0)
+  - RxSwift
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Kingfisher
+    - RxSwift
+
+SPEC CHECKSUMS:
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  Kingfisher: da6b005aa96d37698e3e4f1ccfe96a5b9bbf27d6
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+
+PODFILE CHECKSUM: 4d46975ff28a56f60b423db527ecb1d1b3ac4c55
+
+COCOAPODS: 1.11.3
